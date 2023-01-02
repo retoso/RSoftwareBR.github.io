@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/96be6e583e.js" crossorigin="anonymous"></script>
+    <title>RSoftware</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h1>RSoftware</h1>
+            </div>
+            <div class="hoje">
+                <label class="hojeDia" id="hojeDia"></label>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        <i class="fa-solid fa-house"></i>
+                        <div>Home</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./html/sobre.html">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <div>Sobre</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./html/contato.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Contato</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./html/ajuda.html">
+                        <i class="fas fa-question"></i>
+                        <div>Ajuda</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+
+            
+            <div class="contratar">
+                <div class="img">
+                    <img src="./img/development-teams.png" alt="desenvolvimento de software"
+                    srcset="desenvolvimento de software">
+                </div>
+                    <br>
+                    <p>
+                    <H3>
+                        Um conselho sobre como contratar uma empresa de desenvolvimento de software.
+                    </H3>
+                    <br>
+                    <br>
+                    
+                    
+                    * Obtenha o que você paga, ou seja, rejeite a opção mais barata (buscar custo-benefício), <br>
+                    
+                    * A comunicação é a chave . Assim, preste atenção aos sprints, reuniões aprendizes, ferramentas de
+                    rastreamento, etc.,<br>
+                    
+                    * Encontre especialistas em uma determinada tecnologia/estrutura, evite “especialistas oniscientes
+                    em
+                    tudo”,<br>
+                    
+                    * Se possível, solicite uma implantação de demonstração do produto em cada estágio de
+                    desenvolvimento,<br>
+                    
+                    * Procure alguém que entenda a lógica de negócios por trás do produto,<br>
+                    
+                    * O modelo de tempo e material geralmente vence o modelo de preço fixo.<br>
+                </p>
+            </div>
+            <br>
+            
+            
+            <div class='containerBox'>
+            <div class="box">
+                    <h4>#1 - Abundância de agências.</h4>
+                    <br>
+                    <p>O mercado está saturado, com centenas<span id="pontoUm">...</span><span id="maisUm">de empresas
+                            em
+                            todos os países. Vai ser difícil e demorado vasculhar os designs coloridos e os argumentos
+                            de
+                            vendas de empresas que afirmam ser especialistas em tudo. Certifique-se de não se distrair e
+                            se
+                            concentrar em encontrar um parceiro certo, que não vai apenas tratar o seu projeto como mais
+                            um
+                            em sua “linha de montagem”.
+                        </span></p>
+                    <button class="btn" onclick="btnUm()" id="btnUm">Leia Mais</button>
+                </div>
+
+
+                <div class="box">
+                    <h4>#2 - O desenvolvimento.</h4>
+                    <br>
+                    <p>Os desenvolvedores de software são <span id="pontoDois">...</span><span
+                            id="maisDois">responsáveis
+                            por muito mais. Eles podem afetar a experiência do cliente final, o fluxo de receita, a
+                            identidade da marca, o conteúdo e assim por diante… praticamente todos os aspectos de um
+                            negócio. Uma boa empresa de desenvolvimento de software irá além e tentará criar um produto
+                            útil, contribuir com o design e auxiliar na implantação.
+                        </span></p>
+                    <button class="btn" onclick="btnDois()" id="btnDois">Leia Mais</button>
+                </div>
+
+                <div class="box">
+                    <h4>#3 - A competição é intensa.</h4>
+                    <br>
+                    <p>Todos os desenvolvedores desenvolvidos <span id="pontoTres">...</span><span id="maisTres">e
+                            experientes são empregados, especialmente no campo de desenvolvimento de aplicativos móveis,
+                            por
+                            exemplo, onde há demanda até mesmo de desenvolvedores juniores e de nível médio. Mais tarde,
+                            muitos ficam frustrados ao saber de fatos como 60% dos codificadores móveis entregaram menos
+                            de
+                            5 aplicativos e cerca de 20% entregaram entre 5 e 9.
+                        </span></p>
+                    <button class="btn" onclick="btnTres()" id="btnTres">Leia Mais</button>
+                </div>
+
+                <div class="box">
+                    <h4>#4 - É melhor produzir.</h4>
+                    <br>
+                    <p>No entanto, com todos esses desafios <span id="pontoQuatro">...</span><span
+                            id="maisQuatro">organizacionais, é preciso criar um produto exclusivo que se destaque dos
+                            demais.
+                            O mercado não tolera produtos semelhantes, portanto não seria sensato imitar o produto de um
+                            concorrente e esperar os mesmos resultados. Normalmente, é melhor escolher o desenvolvimento
+                            personalizado de um produto com recursos projetados individualmente.
+                        </span></p>
+                    <button class="btn" onclick="btnQuatro()" id="btnQuatro">Leia Mais</button>
+                </div>
+
+                <div class="box">
+                    <h4>#5 - Projetos de software.</h4>
+                    <br>
+                    <p>E a maioria deles ultrapassa <span id="pontoCinco">...</span><span id="maisCinco">o orçamento
+                            (até
+                            50% ou mais). A faixa de custo médio do projeto é de R$15.000 a R$150.000. O projeto médio
+                            também leva cerca de 1.000 horas, enquanto as taxas horárias estão na faixa de $30 a $300. A
+                            terceirização do desenvolvimento de software geralmente é vista como uma forma de reduzir
+                            custos, mas, na verdade, na maioria dos casos, como empresas de desenvolvimento baratas são
+                            fracas.
+                        </span></p>
+                    <button class="btn" onclick="btnCinco()" id="btnCinco">Leia Mais</button>
+                </div>
+
+                <div class="box">
+                    <h4>#6 - A terceirização de software.</h4>
+                    <br>
+                    <p>Em 2012, devido a uma falha na <span id="pontoSeis">...</span><span id="maisSeis">na atualização
+                            do
+                            software, milhões de clientes do banco RBS não conseguiram acessar suas contas, e o banco
+                            não
+                            conseguiu realizar nenhuma transação por alguns dias. Este é apenas um exemplo de como o
+                            software é crucial hoje em dia, e de acordo com diferentes estimativas, 25% a 50% dos
+                            projetos
+                            de terceirização falham.
+                        </span></p>
+                    <button class="btn" onclick="btnSeis()" id="btnSeis">Leia Mais</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+
+</body>
+
+</html>
