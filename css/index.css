@@ -98,12 +98,21 @@ h2 {
     min-height: calc(100% - 60px);
     background: white;
     padding: 10px;
-}
-.containerBox{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: flex;
-    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.box{
+
+.containerBox {
+    display: flex;
+    flex-wrap: wrap;
+    color: #1C5A6B;
+    ;
+}
+
+.box {
     min-width: 200px;
     width: 25%;
     padding: 20px;
@@ -111,7 +120,7 @@ h2 {
 
 .contratar {
     max-width: 780px;
-    min-height: 50px;
+    min-height: 40px;
     border-radius: none;
     background-color: #1C5A6B;
     opacity: 0.7;
@@ -124,6 +133,7 @@ h2 {
 .contratar .img {
     display: flex;
     justify-content: center;
+
 
 }
 
@@ -159,22 +169,25 @@ h4:hover {
 #maisTres {
     display: none;
 }
-#maisQuatro{
+
+#maisQuatro {
     display: none;
 }
-#maisCinco{
+
+#maisCinco {
     display: none;
 }
-#maisSeis{
+
+#maisSeis {
     display: none;
 }
 
 
-button{
+button {
     background-color: #fff;
     border: none;
     padding: 2px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -190,11 +203,11 @@ button:hover {
     color: #E87724;
 }
 
-.box p{
+.box p {
     padding-top: 20px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;     
+    background-color: #fff;
 }
