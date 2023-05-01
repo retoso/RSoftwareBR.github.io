@@ -1,2 +1,2 @@
 # rsoftware.github.io
-Rsoftware e uma empresa dedicada ao desenvolvimento de soluções tecnológicas.
+Este projeto tem como objetivo apresentar a empresa RSoftware, suas soluções e serviços para clientes em potencial. O site foi desenvolvido com a finalidade de oferecer uma experiência de navegação agradável e eficiente para o usuário, destacando a expertise e diferenciais da empresa. Além disso, o site também visa promover a interação entre a empresa e seus clientes, por meio de formulários de contato e canais de atendimento. O projeto foi desenvolvido com tecnologias modernas e responsivas, garantindo uma navegação confortável em diferentes dispositivos.
