@@ -11,8 +11,9 @@
 }
 
 .SobreEmpresa .paragrafo {
-    max-width: 520px;
-    min-height: 50px;
+    max-width: 780px;
+    min-height: 40px;
+    border-radius: none;
 }
 
 .negocio {
